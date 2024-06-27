@@ -1,0 +1,10 @@
+<main id="container">
+    <app-foto-pokemon></app-foto-pokemon>
+    <div id="tarjetasContainer">
+        <app-tarjeta-pokemon *ngFor="let pokemon of listaPokemon"
+        [data]="pokemon"
+        >
+
+        </app-tarjeta-pokemon>
+    </div>
+</main>
